@@ -23,7 +23,7 @@ RUN mkdir -p $MESOS_DNS_PATH && \
     cp mesos-dns / && \
     rm -rf $GOPATH
 
-EXPOSE 8053 8123
+EXPOSE 8053 8053/udp 8123
 
 VOLUME ["/config"]
 
