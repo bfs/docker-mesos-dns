@@ -1,6 +1,6 @@
 FROM boritzio/docker-base
 
-ADD https://github.com/mesosphere/mesos-dns/releases/download/v0.5.1/mesos-dns-v0.5.1-linux-amd64 mesos-dns
+ADD https://github.com/mesosphere/mesos-dns/releases/download/v0.5.2/mesos-dns-v0.5.2-linux-amd64 mesos-dns
 
 RUN chmod +x mesos-dns
 
